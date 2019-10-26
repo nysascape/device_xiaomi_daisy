@@ -349,6 +349,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
+    init.safailnet.rc \
     init.target.rc \
     init.daisy.rc \
     move_time_data.sh \
@@ -467,3 +468,4 @@ PRODUCT_BOOT_JARS += \
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
+
